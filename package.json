@@ -1,0 +1,28 @@
+{
+  "name": "breaking-bad-backend",
+  "version": "1.0.0",
+  "description": "API para mostrar frases de Breaking Bad aleatorias",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "deploy": "gcloud app deploy && gcloud app browse -s breakingbad-service"
+  },
+  "keywords": [
+    "breaking",
+    "bad",
+    "heisenberg",
+    "quotes",
+    "api"
+  ],
+  "author": "Carlos Mur",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
